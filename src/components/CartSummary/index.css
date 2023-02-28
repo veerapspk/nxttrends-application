@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.total-cart-container {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  background-color: bisque;
+  border-radius: 6px;
+  align-self: flex-end;
+}
+.amount-head {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: rgb(44, 42, 42);
+  margin-bottom: 0px;
+}
+.amount {
+  color: black;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.cart-count {
+  color: rgb(44, 42, 42);
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+.cart-order-btn {
+  background-color: rgb(86, 86, 240);
+  color: bisque;
+  border-style: none;
+  cursor: pointer;
+  height: 30px;
+  border-radius: 7px;
+}
